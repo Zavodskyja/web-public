@@ -100,18 +100,22 @@ li.dropdown {
 .logo {
     width: 20%;
     display: flex;
+    flex-flow:wrap;
     align-items: center;
     justify-content: center;
     font-size: 50px;
 }
 
-.middle-menu {
-    width: 60%;
+.menu-top__middle {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1170px;
 }
 
 .social {
     width: 20%;
     display: flex;
+    flex-flow:wrap;
     align-items: center;
     justify-content: center;
 }
