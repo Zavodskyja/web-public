@@ -785,3 +785,102 @@ li.dropdown {
 .fa-long-arrow-alt-right {
     margin-left: 1em;
 }
+
+
+/*Gallery--TODO*/
+
+.gallery {
+background-color:white;
+
+}
+
+.middlepanel__gallery {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+
+
+/*Experts*/
+
+.instructors {
+    background-color: lightblue;
+}
+
+.middlepanel__instructors {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.instructors-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 40px
+}
+
+.instructors-container__items {
+    flex: 1 0 20%;
+    margin: 10px;
+    height: 300px;
+}
+
+    .instructors-container__items:first-child {
+        margin-left: 0;
+    }
+
+
+    .instructors-container__items:last-child {
+        margin-right: 0;
+    }
+
+
+.instructors-container__items--img {
+    margin: 0;
+    height: 60%;
+    width: 100%;
+    display: block;
+}
+
+.instructors-container__items img {
+    display: block;
+    width:100%;
+}
+
+
+.instructors-container__items-text {
+    height: 40%;
+    text-align: center;
+    border: 1px solid gray;
+    border-top: none;
+}
+
+.instructors-container__items-text h3 {
+    margin: 0;
+    padding-top: 1em;
+}
+
+    .instructors-container__items-text p {
+        color: gray;
+    }
+
+
+    .instructors-container__items-text span {
+        color: gray;
+        margin-right: 1em;
+    }
+
+
+    .instructors-container__items-text .fa-users {
+        padding-right: 0.5em;
+        color: darkorange;
+    }
+
+    .instructors-container__items-text .fa-book {
+        padding-right: 0.5em;
+        color: darkorange;
+    }
+
