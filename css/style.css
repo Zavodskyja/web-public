@@ -822,10 +822,16 @@ background-color:white;
     margin-bottom: 40px
 }
 
+.instructor-container__subbox {
+    border-top:none;
+}
+
+
 .instructors-container__items {
     flex: 1 0 20%;
     margin: 10px;
-    height: 300px;
+    height: 400px;
+    background-color: white;
 }
 
     .instructors-container__items:first-child {
@@ -848,14 +854,13 @@ background-color:white;
 .instructors-container__items img {
     display: block;
     width:100%;
+    height:60%;
 }
 
 
 .instructors-container__items-text {
-    height: 40%;
-    text-align: center;
-    border: 1px solid gray;
-    border-top: none;
+    margin-left: 10%;
+    margin-right:10%;
 }
 
 .instructors-container__items-text h3 {
@@ -870,7 +875,7 @@ background-color:white;
 
     .instructors-container__items-text span {
         color: gray;
-        margin-right: 1em;
+        margin-bottom: 40px;
     }
 
 
@@ -884,3 +889,8 @@ background-color:white;
         color: darkorange;
     }
 
+.inscrutors-container__items-text__divider {
+    border-top: 1px solid #bbb;
+    margin-top:20px;
+    margin-bottom:20px;
+}
