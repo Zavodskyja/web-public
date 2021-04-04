@@ -100,7 +100,7 @@ li.dropdown {
 .logo {
     width: 20%;
     display: flex;
-    flex-flow:wrap;
+    flex-flow: wrap;
     align-items: center;
     justify-content: center;
     font-size: 50px;
@@ -115,7 +115,7 @@ li.dropdown {
 .social {
     width: 20%;
     display: flex;
-    flex-flow:wrap;
+    flex-flow: wrap;
     align-items: center;
     justify-content: center;
 }
@@ -790,8 +790,7 @@ li.dropdown {
 /*Gallery--TODO*/
 
 .gallery {
-background-color:white;
-
+    background-color: white;
 }
 
 .middlepanel__gallery {
@@ -812,6 +811,8 @@ background-color:white;
     width: 100%;
     margin: 0 auto;
     max-width: 1170px;
+    margin-top: 50px;
+    margin-bottom:50px;
 }
 
 .instructors-container {
@@ -823,7 +824,7 @@ background-color:white;
 }
 
 .instructor-container__subbox {
-    border-top:none;
+    border-top: none;
 }
 
 
@@ -853,20 +854,20 @@ background-color:white;
 
 .instructors-container__items img {
     display: block;
-    width:100%;
-    height:60%;
+    width: 100%;
+    height: 60%;
 }
 
 
 .instructors-container__items-text {
     margin-left: 10%;
-    margin-right:10%;
+    margin-right: 10%;
 }
 
-.instructors-container__items-text h3 {
-    margin: 0;
-    padding-top: 1em;
-}
+    .instructors-container__items-text h3 {
+        margin: 0;
+        padding-top: 1em;
+    }
 
     .instructors-container__items-text p {
         color: gray;
@@ -891,6 +892,32 @@ background-color:white;
 
 .inscrutors-container__items-text__divider {
     border-top: 1px solid #bbb;
-    margin-top:20px;
-    margin-bottom:20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
+
+/* Upcoming Events */
+
+
+.events {
+    background-color:white;
+}
+
+.middlepanel__events {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+
+.events-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+    align-items:baseline;
+}
+
+
