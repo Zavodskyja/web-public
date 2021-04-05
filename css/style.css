@@ -977,6 +977,7 @@ li.dropdown {
     width: 350px;
     margin-left: 30px;
     height: 300px;
+   
 }
 
 .events-items__small__img {
@@ -994,6 +995,7 @@ li.dropdown {
 
 
 .feedback {
+    
     background-image: url(../assety/feedback_background.jpg)
 }
 
@@ -1019,7 +1021,7 @@ li.dropdown {
 .container-feedback__items {
     background-color: aquamarine;
     margin: 10px;
-    height: 450px;
+    height: 650px;
     flex:1;
 }
 .feedback-items__left{
