@@ -990,3 +990,19 @@ text-align:center;
 .events-items__small:first-child {
     margin-bottom: 30px;
 }
+
+
+/*Feedback*/
+
+
+.feedback {
+    background-image: url(../assety/feedback_background.jpg)
+}
+
+.middlepanel__feedback {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1170px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
