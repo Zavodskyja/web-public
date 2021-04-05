@@ -1007,9 +1007,11 @@ li.dropdown {
     margin-bottom: 50px;
 }
 
-.feedback h3, h2 {
+.feedback h3, .feedback h2 {
     color: white;
 }
+
+
 
 .container-feedback {
     display: flex;
