@@ -1131,6 +1131,12 @@ li.dropdown {
     height: 450px;
     background-color: white;
 }
+    .blog-items:first-child{
+        margin-left:0;
+    }
+    .blog-items:last-child {
+        margin-right: 0;
+    }
 
     .available-items:first-child {
         margin-left: 0;
@@ -1169,6 +1175,44 @@ li.dropdown {
     height: 60%;
     width: 100%;
     display: block;
+}
+
+
+
+/*Orange-logo-bar*/
+
+
+.orange-bar {
+    background-color: orangered;
+}
+
+.middlepanel-orange-bar {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+
+.orange-box-container {
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.orange-bar__box {
+    flex: 1;
+    color: white;
+   
+}
+
+
+
+.footer-box{
+
+
 }
 
 
