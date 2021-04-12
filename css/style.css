@@ -1094,3 +1094,56 @@ li.dropdown {
 .career_left {
     background-color: brown;
 }
+
+
+
+/*Blog*/
+
+
+
+.blog {
+    background-color: lightseagreen;
+}
+
+.middlepanel-blog {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.blog_test {
+    margin-top: 10%;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+
+.blog-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.blog-items {
+    flex: 1 0 20%;
+    margin: 10px;
+    height: 450px;
+    background-color: white;
+}
+
+    .available-items:first-child {
+        margin-left: 0;
+    }
+
+    .available-items:last-child {
+        margin-right: 0;
+    }
+
+
+.blog-items__subbox {
+    margin-top: 15%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
