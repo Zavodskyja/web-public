@@ -1205,13 +1205,17 @@ li.dropdown {
 .orange-bar__box {
     flex: 1;
     color: white;
-   
+    
+}
+
+#orange-box-id{
+    margin-bottom:0;
 }
 
 
 
 .footer-box{
-
+    background-color:dodgerblue;
 
 }
 
