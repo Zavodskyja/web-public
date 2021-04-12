@@ -1102,7 +1102,7 @@ li.dropdown {
 
 
 .blog {
-    background-color: lightseagreen;
+    background-color: none;
 }
 
 .middlepanel-blog {
@@ -1146,4 +1146,22 @@ li.dropdown {
     margin-bottom: 10%;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.blog-items-logos {
+    margin: 0;
+    height: 60%;
+    width: 100%;
+    display: block;
+}
+
+
+
+
+.blog-items-text {
+    height: 40%;
+    margin-top: 0;
+    text-align: center;
+    border: 1px solid gray;
+    border-top: none;
 }
