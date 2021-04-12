@@ -1045,7 +1045,7 @@ li.dropdown {
     width: 100%;
     margin: 0 auto;
     max-width: 1170px;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 50px;
 }
 
@@ -1054,17 +1054,19 @@ li.dropdown {
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 40px;
+    justify-content: center;
 }
 
 .container-career__items {
     margin: 10px;
-    height: 650px;
-    flex: 1;
+    height: 500px;
+    width: 500px;
 }
 
 #career-right {
     display: flex;
     flex-flow: column;
+    margin-left: 50px;
 }
 
 .career-right__items {
@@ -1090,15 +1092,44 @@ li.dropdown {
 }
 
 .career_left {
-    background-color: brown;
+    flex-wrap:wrap;
+    position:relative;
 }
 
 
+#img1 {
+    position:absolute;
+    z-index: 1;
+    margin-left:-50px;
+    margin-top:-50px;
+}
+
+#img2 {
+    position: absolute;
+    z-index: 3;
+    right:0;
+    bottom:0;
+}
+/*
+.career_left-items__offset {
+    background-color: cadetblue;
+    margin-left: -50px;
+    margin-top: -50px;
+    z-index: 1;
+    width:500px;
+    height:500px;
+}
+
+.career_left-items__small {
+    background-color: palevioletred;
+    z-index: 2;
+    width: 330px;
+    height: 350px;
+}
+    */
+
 
 /*Blog*/
-
-
-
 .blog {
     background-color: none;
 }
@@ -1129,9 +1160,11 @@ li.dropdown {
     height: 450px;
     background-color: white;
 }
-    .blog-items:first-child{
-        margin-left:0;
+
+    .blog-items:first-child {
+        margin-left: 0;
     }
+
     .blog-items:last-child {
         margin-right: 0;
     }
@@ -1143,10 +1176,9 @@ li.dropdown {
     margin-top: 0;
     border: 1px solid gray;
     border-top: none;
-    align-content:center;
-    display:flex;
-    flex-flow:column;
-
+    align-content: center;
+    display: flex;
+    flex-flow: column;
 }
 
 
@@ -1157,9 +1189,8 @@ li.dropdown {
     margin-top: 10%;
 }
 
-.box-items__subbox:last-child{
-
-    margin-left:0;
+.box-items__subbox:last-child {
+    margin-left: 0;
 }
 
 .blog-items-logos {
@@ -1180,6 +1211,7 @@ li.dropdown {
     color: white;
     width: 200px;
 }
+
 #blog-join--right {
     background-color: white;
     width: 150px;
@@ -1214,23 +1246,14 @@ li.dropdown {
 .orange-bar__box {
     flex: 1;
     color: white;
-    
 }
 
-#orange-box-id{
-    margin-bottom:0;
-}
-
-
-
-.footer-box{
-    background-color:dodgerblue;
-
+#orange-box-id {
+    margin-bottom: 0;
 }
 
 
 
-
-
-
-
+.footer-box {
+    background-color: dodgerblue;
+}
