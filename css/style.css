@@ -1053,7 +1053,6 @@ li.dropdown {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
     margin-top: 40px;
 }
 
@@ -1066,7 +1065,6 @@ li.dropdown {
 #career-right {
     display: flex;
     flex-flow: column;
-    justify-content: space-around;
 }
 
 .career-right__items {
@@ -1138,13 +1136,7 @@ li.dropdown {
         margin-right: 0;
     }
 
-    .available-items:first-child {
-        margin-left: 0;
-    }
 
-    .available-items:last-child {
-        margin-right: 0;
-    }
 
 .blog-items-text {
     height: 40%;
@@ -1176,6 +1168,23 @@ li.dropdown {
     width: 100%;
     display: block;
 }
+
+
+.blog-items__join {
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+}
+
+#blog-join--left {
+    background-color: orange;
+    color: white;
+    width: 200px;
+}
+#blog-join--right {
+    background-color: white;
+    width: 150px;
+}
+
 
 
 
