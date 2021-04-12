@@ -1063,23 +1063,21 @@ li.dropdown {
     flex: 1;
 }
 
-#career-right{
-    display:flex;
-    flex-flow:column;
-    justify-content:space-around;
+#career-right {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
 }
 
 .career-right__items {
     flex: 1;
     width: 100%;
     margin-top: 10px;
-    margin-bottom:10px;
-   
+    margin-bottom: 10px;
 }
 
 #career__items-middle {
     display: flex;
-    
 }
 
 .career-divider {
@@ -1087,12 +1085,12 @@ li.dropdown {
     margin-left: 40px;
     margin-right: 40px;
 }
- .career-right__subitems{
-     flex:1;
-     width:100%;
 
- }
+.career-right__subitems {
+    flex: 1;
+    width: 100%;
+}
 
-    .career_left {
-        background-color: brown;
-    }
+.career_left {
+    background-color: brown;
+}
