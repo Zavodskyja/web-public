@@ -1376,7 +1376,7 @@ button:focus, textarea:focus, select:focus {
     height: 200px;
     width: 600px;
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
     flex-direction: row;
 }
 
@@ -1398,26 +1398,23 @@ button:focus, textarea:focus, select:focus {
     display: flex;
     flex-direction: column;
     color: #79909d;
-    justify-content:space-between;
-    height:140px;
-    margin-top:10px;
+    justify-content: space-between;
+    height: 140px;
+    margin-top: 10px;
 }
 
-    .footer-text > a {
-        color: inherit;
-        text-decoration: none;
-    }
-
-    .footer-text > ul{
-
-        column-count: 2;
-        list-style-type:none;
+    .footer-text > li a {
+        color: white;
+        font-size:15px;
+        text-align:left;
     }
 
     .footer-newsletters {
         width: 500px;
         height: 200px;
         color: white;
+        text-decoration:none;
+        padding:0;
     }
 
 
