@@ -1367,9 +1367,11 @@ button:focus, textarea:focus, select:focus {
 
 
 .footer-bottom {
+    width:100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content:space-between;
 }
 
 .footer-company_course {
@@ -1397,25 +1399,41 @@ button:focus, textarea:focus, select:focus {
 .footer-text {
     display: flex;
     flex-direction: column;
-    color: #79909d;
     justify-content: space-between;
     height: 140px;
     margin-top: 10px;
+    width: 100%;
 }
 
     .footer-text > li a {
-        color: white;
-        font-size:15px;
-        text-align:left;
+        color: #79909d;
+        font-size: 15px;
+        text-align: left;
     }
 
-    .footer-newsletters {
-        width: 500px;
-        height: 200px;
-        color: white;
-        text-decoration:none;
-        padding:0;
-    }
+
+.footer-newsletters {
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    height: 200px;
+    color: white;
+    text-decoration: none;
+    padding: 0;
+}
+
+.footer-newsletters__text {
+    width: 100%;
+}
+
+.footer-newsletters__search {
+    width: 100%;
+    height: 70px;
+}
+
+.footer-newsletters__text > p {
+    color: #79909d;
+}
 
 
 
@@ -1423,7 +1441,7 @@ button:focus, textarea:focus, select:focus {
     width: 100%;
     height: 60px;
     background-color: #0c3542;
-    color: white;
+    color: #79909d;
     display: flex;
     align-items: center;
     justify-content: center;
