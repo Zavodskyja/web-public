@@ -237,13 +237,13 @@ li.dropdown {
     margin-top: 10px;
 }
 
-.nadpis {
+.Search_test h2 {
     display: block;
     font-size: 70px;
     font-weight: bold;
 }
 
-.h4_1 {
+.Search_test h1 {
     display: block;
     font-size: 20px;
     text-align: left;
@@ -347,13 +347,36 @@ button:focus, textarea:focus, select:focus {
     width: 100%;
 }
 
+    .statistics > h2 {
+        
+        color: #ea5822;
+        text-align:center;
+    }
+    .statistics > h3 {
+        margin-top:-15px;
+        text-align:center;
+        font-size:50px;
+    }
 
-.Categories {
-    width: 100%;
-    margin: 0 auto;
-    max-width: 1170px;
-    background-color: white;
-}
+    .statistics .fa-square {
+       margin-left:5px;
+        text-align: center;
+        font-size: 7px;
+        vertical-align: middle;
+    }
+        .statistics .fa-square:nth-child(3){
+            margin-right:20px;
+        }
+        .statistics .fa-square:nth-child(4) {
+            margin-left: 20px;
+        }
+
+        .Categories {
+            width: 100%;
+            margin: 0 auto;
+            max-width: 1170px;
+            background-color: white;
+        }
 
 
 
