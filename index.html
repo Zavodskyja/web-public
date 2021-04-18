@@ -3,12 +3,12 @@
 <head>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/courses.css">
-    <link href="css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <heder>
+    <header>
         <nav class="header-container">
 
             <!-- Logo -->
@@ -18,11 +18,13 @@
 
             <!-- Nabidka -->
             <ul class="menu-top__middle">
-                <li>
-                    <a href="#home">
-                        <span class="menu-home">Home</span>
-                        <i class="fas fa-chevron-down"></i>
-                    </a>
+                <li class="dropdown">
+                    <a href="" class="dropbtn">Home&nbsp;<i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#">Faq</a>
+                        <a href="#">About us</a>
+
+                    </div>
                 </li>
                 <li class="dropdown">
                     <a href="" class="dropbtn">Courses&nbsp;<i class="fas fa-chevron-down"></i></a>
@@ -32,7 +34,13 @@
                         <a href="#">Course details</a>
                     </div>
                 </li>
-                <li><a href="#events">Events&nbsp;<i class="fas fa-chevron-down"></i></a></li>
+                <li class="dropdown">
+                    <a href="" class="dropbtn">Events&nbsp;<i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#">Event Details</a>
+
+                    </div>
+                </li>
                 <li><a href="#pages">Pages&nbsp;<i class="fas fa-chevron-down"></i></a></li>
                 <li><a href="#blog">Blog&nbsp;<i class="fas fa-chevron-down"></i></a></li>
                 <li><a>Contact</a></li>
@@ -46,7 +54,7 @@
                 <li><button class="kostky"><i class="fas fa-th"></i></button></li>
             </ul>
         </nav>
-    </heder>
+    </header>
 
     <main>
         <section class="Search">
@@ -283,7 +291,7 @@
                         </div>
                         <div class="available-items">
                             <div class="subbox-orange-items">
-                                <span class="white-background-span">BUSINESS</span>
+                                <span class="white-background-span">TODO Hover</span>
                                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i>
                             </div>
                             <div class="subbox-orange-items">
@@ -524,8 +532,8 @@
                 <div class="middlepanel__career">
                     <div class="container-career">
                         <div class="container-career__items career_left">
-                            <img src="assety/Bg.png" id="img1"/>
-                            <img src="assety/bG (1).png" id="img2"/>
+                            <img src="assety/Bg.png" id="img1" />
+                            <img src="assety/bG (1).png" id="img2" />
 
                         </div>
                         <div class="container-career__items" id="career-right">
@@ -681,23 +689,41 @@
     <footer>
         <!--Footer bar-- TODO-->
 
-        <div class="footer-box">
+        <section class="footer">
+            <div class="container-middle">
+                <div class="middlepanel__footer">
+                    <div class="container-footer">
+                        <div class="footer-container-top">
+                            <div class="footer-logo">
+                                <img src="assety/footer-logo.png"><b>&nbsp;Edu</b>Plus
+                            </div>
+                            <div class="footer-container-top__right">
+                                <div class="footer-container-top__right-items">
+                                    <i class="fab fa-facebook-f" id="facebook"></i><span>Facebook</span>
 
+                                </div>
+                                <div class="footer-container-top__right-items">
+                                    <i class="fab fa-twitter" id="twitter"></i><span>Twitter</span>
+                                </div>
+                                <div class="footer-container-top__right-items">
+                                    <i class="fab fa-youtube" id="youtube"></i><span>Youtube</span>
+                                </div>
+                                <div class="footer-container-top__right-items">
 
-            <section class="middlepanel-footer-big">
-                <div class="footer-big"></div>
-                <div class="footer-big-container">
-                    <div class="footer-big-items">Footer s ikonkama atd</div>
+                                    <i class="fab fa-instagram" id="instagram"></i><span>Instagram</span>
+                                </div>
 
+                            </div>
 
-
-
-
+                        </div>
+                    </div>
                 </div>
+            </div>
 
 
-            </section>
-        </div>
+
+
+        </section>
 
     </footer>
 </body>
