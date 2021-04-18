@@ -51,7 +51,7 @@ li a, .dropbtn {
 }
 
     li a:hover, .dropdown:hover {
-        color: darkorange;
+        color: #ea5822;
     }
 
 li.dropdown {
@@ -77,7 +77,7 @@ li.dropdown {
 
         .dropdown-content a:hover {
             color: white;
-            background-color: darkorange;
+            background-color: #ea5822;
         }
 
 .dropdown:hover .dropdown-content {
@@ -138,22 +138,22 @@ li.dropdown {
 }
 
 .sign:hover .fa-user-circle:not(:hover) {
-    background-color: #FF8C00;
+    background-color: #ea5822;
     color: white;
 }
 
 .sign:hover {
-    background-color: #FF8C00;
+    background-color: #ea5822;
     color: white;
 }
 
 .fa-user-circle:hover {
-    background-color: #FF8C00;
+    background-color: #ea5822;
     color: white;
 }
 
 .fb {
-    background-color: #FF8C00;
+    background-color: #ea5822;
     border: none;
     color: white;
     text-align: center;
@@ -167,14 +167,14 @@ li.dropdown {
 
     .fb:hover {
         background-color: white;
-        color: #FF8C00;
+        color: #ea5822;
     }
 
 
 .yt {
     background-color: white;
     border: none;
-    color: #FF8C00;
+    color: #ea5822;
     text-align: center;
     height: 50px;
     width: 50px;
@@ -185,7 +185,7 @@ li.dropdown {
 }
 
     .yt:hover {
-        background-color: #FF8C00;
+        background-color: #ea5822;
         color: white;
     }
 
@@ -193,7 +193,7 @@ li.dropdown {
 .kostky {
     background: none;
     border: none;
-    color: #FF8C00;
+    color: #ea5822;
     font-size: 50px;
     cursor: pointer;
     margin: 5px;
@@ -247,7 +247,7 @@ li.dropdown {
     display: block;
     font-size: 20px;
     text-align: left;
-    color: darkorange;
+    color: #ea5822;
 }
 
 .searchbar input[type=text] {
@@ -267,7 +267,7 @@ button:focus, textarea:focus, select:focus {
 
 .searchbar button {
     padding: 1em;
-    background: darkorange;
+    background: #ea5822;
     font-size: 17px;
     border: solid;
     border-width: 0.65em;
@@ -286,7 +286,7 @@ button:focus, textarea:focus, select:focus {
 
     .searchinfo .oddeleni {
         width: 2px;
-        background: darkorange;
+        background: #ea5822;
         height: 2.5em;
     }
 
@@ -328,7 +328,7 @@ button:focus, textarea:focus, select:focus {
 
 .search-box .fa-user-clock {
     font-size: 30px;
-    color: darkorange;
+    color: #ea5822;
     margin-left: 30px;
 }
 
@@ -400,31 +400,31 @@ button:focus, textarea:focus, select:focus {
 }
 
 .statistics-box > .fa-users {
-    color: darkorange;
+    color: #ea5822;
     font-size: 40px;
     margin-left: 20px;
 }
 
 .statistics-box > .fa-book {
-    color: darkorange;
+    color: #ea5822;
     font-size: 40px;
     margin-left: 20px;
 }
 
 .statistics-box > .fa-graduation-cap {
-    color: darkorange;
+    color: #ea5822;
     font-size: 40px;
     margin-left: 20px;
 }
 
 .statistics-box > .fa-laptop-code {
-    color: darkorange;
+    color: #ea5822;
     font-size: 40px;
     margin-left: 20px;
 }
 
 .statistics-box h3 {
-    color: darkorange;
+    color: #ea5822;
     font-size: 30px;
     margin: 0;
     margin-left: 20px;
@@ -501,19 +501,19 @@ button:focus, textarea:focus, select:focus {
 
     .popular-items-text .fa-users {
         padding-right: 0.5em;
-        color: darkorange;
+        color: #ea5822;
     }
 
     .popular-items-text .fa-book {
         padding-right: 0.5em;
-        color: darkorange;
+        color: #ea5822;
     }
 
 
 
 /*dostupne*/
 .available {
-    background-color: lightseagreen;
+    background-color: #062a35;
 }
 
 .middlepanel-available {
@@ -552,7 +552,7 @@ button:focus, textarea:focus, select:focus {
     }
 
     .available-items:nth-child(2) {
-        background-color: darkorange;
+        background-color: #ea5822;
     }
 
 
@@ -601,14 +601,14 @@ button:focus, textarea:focus, select:focus {
 
 .price {
     color: white;
-    background-color: darkorange;
+    background-color: #ea5822;
     padding: 5px 15px 5px 15px;
     border-radius: 25px;
     font-size: 12px;
 }
 
 .orange-background-span {
-    background-color: darkorange;
+    background-color: #ea5822;
     padding: 5px 15px 5px 15px;
     border-radius: 25px;
     font-size: 12px;
@@ -630,14 +630,14 @@ button:focus, textarea:focus, select:focus {
     padding: 5px 15px 5px 15px;
     border-radius: 25px;
     font-size: 12px;
-    color: darkorange;
+    color: #ea5822;
     margin-right: 10px;
 }
 
 
 
 .subbox-items > .fa-star, .fa-star-half {
-    color: darkorange;
+    color: #ea5822;
     font-size: 15px;
 }
 
@@ -654,15 +654,15 @@ button:focus, textarea:focus, select:focus {
 }
 
 .subbox-statistics > .fa-users {
-    color: darkorange;
+    color: #ea5822;
 }
 
 .subbox-statistics > .fa-clock {
-    color: darkorange;
+    color: #ea5822;
 }
 
 .subbox-statistics > .fa-comments {
-    color: darkorange;
+    color: #ea5822;
 }
 
 .subbox-statistics-container {
@@ -766,7 +766,7 @@ button:focus, textarea:focus, select:focus {
     }
 
 .price-orange {
-    color: darkorange;
+    color: #ea5822;
     background-color: white;
     padding: 5px 15px 5px 15px;
     border-radius: 25px;
@@ -779,19 +779,28 @@ button:focus, textarea:focus, select:focus {
     margin-bottom: 15px;
 }
 /*All courses*/
-.prechod-all {
-    margin-top: 3em;
+
+.courses-button-box {
+    width: 100%;
+    height: 70px;
     align-content: center;
     align-items: center;
-    margin-bottom: 5em;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.courses-button {
+    border: 1px solid #79909d;
+    color: #79909d;
+    padding: 15px 32px;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
-    .prechod-all > span {
-        border: solid;
-        border-color: yellow;
-        font-size: 20px;
-    }
+
 
 .fa-long-arrow-alt-right {
     margin-left: 1em;
@@ -893,12 +902,12 @@ button:focus, textarea:focus, select:focus {
 
     .instructors-container__items-text .fa-users {
         padding-right: 0.5em;
-        color: darkorange;
+        color: #ea5822;
     }
 
     .instructors-container__items-text .fa-book {
         padding-right: 0.5em;
-        color: darkorange;
+        color: #ea5822;
     }
 
 .inscrutors-container__items-text__divider {
@@ -958,21 +967,24 @@ button:focus, textarea:focus, select:focus {
     }
 
     .events-items__big__text .fa-calendar-alt, .fa-clock, .fa-map-marker-alt {
-        color: darkorange;
+        color: #ea5822;
     }
 
 
 .events-items__big__price {
-    background-color: orange;
+    background-color: #ea5822;
 }
 
 
 .events-items__join {
-    padding: 15px 30px 15px 30px;
+    padding: 15px 30px;
     color: white;
-    background-color: darkorange;
+    background-color: #ea5822;
     width: 200px;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 
@@ -1217,7 +1229,7 @@ button:focus, textarea:focus, select:focus {
 }
 
 #blog-join--left {
-    background-color: orange;
+    background-color: #ea5822;
     color: white;
     width: 200px;
 }
@@ -1234,7 +1246,7 @@ button:focus, textarea:focus, select:focus {
 
 
 .orange-bar {
-    background-color: orangered;
+    background-color: #ea5822;
 }
 
 .middlepanel-orange-bar {
