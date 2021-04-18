@@ -348,9 +348,9 @@ button:focus, textarea:focus, select:focus {
 }
 
     .statistics > h2 {
-        
+        font-size: 20px;
         color: #ea5822;
-        text-align:center;
+        text-align: center;
     }
     .statistics > h3 {
         margin-top:-15px;
@@ -535,9 +535,49 @@ button:focus, textarea:focus, select:focus {
 
 
 /*dostupne*/
+
+
+
 .available {
     background-color: #062a35;
 }
+
+.available_nadpis > h2 {
+    font-size: 20px;
+    color: #ea5822;
+    text-align: center;
+}
+
+.available_nadpis > h3 {
+    margin-top: -15px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.available_nadpis .fa-square {
+    margin-left: 5px;
+    text-align: center;
+    font-size: 7px;
+    vertical-align: middle;
+}
+
+.available_nadpis .fa-square:nth-child(3) {
+    margin-right: 20px;
+}
+
+.available_nadpis .fa-square:nth-child(4) {
+    margin-left: 20px;
+}
+
+.Categories {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1170px;
+    background-color: white;
+}
+
+
 
 .middlepanel-available {
     width: 100%;
@@ -545,11 +585,10 @@ button:focus, textarea:focus, select:focus {
     max-width: 1170px;
 }
 
-.available_test {
+.available_nadpis {
     margin-top: 10%;
     align-content: center;
     align-items: center;
-    margin-bottom: 10%;
 }
 
 
@@ -838,6 +877,34 @@ button:focus, textarea:focus, select:focus {
     background-color: white;
 }
 
+.middlepanel__gallery > h2 {
+
+    color: #ea5822;
+    text-align: center;
+    font-size: 20px;
+}
+
+.middlepanel__gallery > h3 {
+    margin-top: -15px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.middlepanel__gallery .fa-square {
+    margin-left: 5px;
+    text-align: center;
+    font-size: 7px;
+    vertical-align: middle;
+}
+
+.middlepanel__gallery .fa-square:nth-child(3) {
+    margin-right: 20px;
+}
+
+.middlepanel__gallery .fa-square:nth-child(4) {
+    margin-left: 20px;
+}
+
 .middlepanel__gallery {
     width: 100%;
     margin: 0 auto;
@@ -846,11 +913,43 @@ button:focus, textarea:focus, select:focus {
 
 
 
+
+
+
 /*Experts*/
 
 .instructors {
-    background-color: lightblue;
+    background-color: #eaf4f7;
 }
+
+
+.middlepanel__instructors > h2 {
+    margin-top: 50px;
+    color: #ea5822;
+    text-align: center;
+    font-size: 20px;
+}
+
+.middlepanel__instructors > h3 {
+    margin-top: -15px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.middlepanel__instructors .fa-square {
+    margin-left: 5px;
+    text-align: center;
+    font-size: 7px;
+    vertical-align: middle;
+}
+
+    .middlepanel__instructors .fa-square:nth-child(3) {
+        margin-right: 20px;
+    }
+
+    .middlepanel__instructors .fa-square:nth-child(4) {
+        margin-left: 20px;
+    }
 
 .middlepanel__instructors {
     width: 100%;
@@ -865,7 +964,7 @@ button:focus, textarea:focus, select:focus {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 40px
+    margin-bottom: 50px
 }
 
 .instructor-container__subbox {
@@ -949,6 +1048,33 @@ button:focus, textarea:focus, select:focus {
     background-color: white;
 }
 
+.middlepanel__events > h2 {
+    color: #ea5822;
+    text-align: center;
+    font-size: 20px;
+}
+
+.middlepanel__events > h3 {
+    margin-top: -15px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.middlepanel__events .fa-square {
+    margin-left: 5px;
+    text-align: center;
+    font-size: 7px;
+    vertical-align: middle;
+}
+
+.middlepanel__events .fa-square:nth-child(3) {
+    margin-right: 20px;
+}
+
+.middlepanel__events .fa-square:nth-child(4) {
+    margin-left: 20px;
+}
+
 .middlepanel__events {
     width: 100%;
     margin: 0 auto;
@@ -967,7 +1093,7 @@ button:focus, textarea:focus, select:focus {
 
 
 .events-items__big {
-    background-color: lightblue;
+    background-color: #eaf4f7;
     margin-left: 0px;
     width: 770px;
     max-height: 630px;
@@ -1044,6 +1170,36 @@ button:focus, textarea:focus, select:focus {
     background-image: url(../assety/feedback_background.jpg)
 }
 
+.middlepanel__feedback > h2 {
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.middlepanel__feedback > h3 {
+    color:white;
+    margin-top: -15px;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.middlepanel__feedback .fa-square {
+    margin-left: 5px;
+    text-align: center;
+    font-size: 7px;
+    vertical-align: middle;
+}
+
+    .middlepanel__feedback .fa-square:nth-child(3) {
+        margin-right: 20px;
+    }
+
+    .middlepanel__feedback .fa-square:nth-child(4) {
+        margin-left: 20px;
+    }
+
 .middlepanel__feedback {
     width: 100%;
     margin: 0 auto;
@@ -1052,12 +1208,7 @@ button:focus, textarea:focus, select:focus {
     margin-bottom: 50px;
 }
 
-.feedback h3, .feedback h2 {
-    color: white;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+
 
 
 
@@ -1085,8 +1236,38 @@ button:focus, textarea:focus, select:focus {
 
 /*Career*/
 .career {
-    background-color: lightblue;
+    background-color: #eaf4f7;
 }
+
+.career-right__items > h2 {
+    color: #ea5822;
+    text-align: center;
+    margin-top: -20px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.career-right__items > h3 {
+    margin-top: -10px;
+    text-align: center;
+    font-size: 50px;
+    text-align: left;
+}
+
+.career-right__items .fa-square {
+    margin-left: 5px;
+    text-align: center;
+    font-size: 7px;
+    vertical-align: middle;
+}
+
+    .career-right__items .fa-square:nth-child(3) {
+        margin-right: 20px;
+    }
+
+    .career-right__items .fa-square:nth-child(4) {
+        margin-left: 20px;
+    }
 
 .middlepanel__career {
     width: 100%;
@@ -1157,29 +1338,41 @@ button:focus, textarea:focus, select:focus {
     right: 0;
     bottom: 0;
 }
-/*
-.career_left-items__offset {
-    background-color: cadetblue;
-    margin-left: -50px;
-    margin-top: -50px;
-    z-index: 1;
-    width:500px;
-    height:500px;
-}
 
-.career_left-items__small {
-    background-color: palevioletred;
-    z-index: 2;
-    width: 330px;
-    height: 350px;
-}
-    */
 
 
 /*Blog*/
 .blog {
     background-color: none;
 }
+
+.middlepanel-blog > h2 {
+    color: #ea5822;
+    text-align: center;
+    margin-top:50px;
+    font-size:20px;
+}
+
+.middlepanel-blog > h3 {
+    margin-top: -10px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.middlepanel-blog .fa-square {
+    margin-left: 5px;
+    text-align: center;
+    font-size: 7px;
+    vertical-align: middle;
+}
+
+    .middlepanel-blog .fa-square:nth-child(3) {
+        margin-right: 20px;
+    }
+
+    .middlepanel-blog .fa-square:nth-child(4) {
+        margin-left: 20px;
+    }
 
 .middlepanel-blog {
     width: 100%;
