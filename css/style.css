@@ -256,6 +256,7 @@ li.dropdown {
     border: none;
     width: 70%
 }
+
 input:focus, textarea:focus, select:focus {
     outline: none;
 }
@@ -264,7 +265,7 @@ button:focus, textarea:focus, select:focus {
     outline: none;
 }
 
-    .searchbar button {
+.searchbar button {
     padding: 1em;
     background: darkorange;
     font-size: 17px;
@@ -1345,7 +1346,7 @@ button:focus, textarea:focus, select:focus {
     text-align: center;
     line-height: 30px;
     vertical-align: middle;
-    margin-right:10px;
+    margin-right: 10px;
 }
 
 #instagram {
@@ -1357,4 +1358,76 @@ button:focus, textarea:focus, select:focus {
     line-height: 30px;
     vertical-align: middle;
     margin-right: 10px;
+}
+
+.footer-divider {
+    border-top: 3px solid white;
+    width: 100%;
+}
+
+
+.footer-bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer-company_course {
+    height: 200px;
+    width: 600px;
+    display: flex;
+    flex: wrap;
+    flex-direction: row;
+}
+
+.footer-company_course-items {
+    display: flex;
+    flex: 1 0 auto;
+    color: white;
+    flex-direction: column;
+}
+
+.footer-company_course-items_nadpis {
+    height: 50px;
+    width: 100%;
+    color: white;
+}
+
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    color: #79909d;
+    justify-content:space-between;
+    height:140px;
+    margin-top:10px;
+}
+
+    .footer-text > a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .footer-text > ul{
+
+        column-count: 2;
+        list-style-type:none;
+    }
+
+    .footer-newsletters {
+        width: 500px;
+        height: 200px;
+        color: white;
+    }
+
+
+
+.copyright {
+    width: 100%;
+    height: 60px;
+    background-color: #0c3542;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
