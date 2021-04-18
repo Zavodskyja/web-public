@@ -256,8 +256,15 @@ li.dropdown {
     border: none;
     width: 70%
 }
+input:focus, textarea:focus, select:focus {
+    outline: none;
+}
 
-.searchbar button {
+button:focus, textarea:focus, select:focus {
+    outline: none;
+}
+
+    .searchbar button {
     padding: 1em;
     background: darkorange;
     font-size: 17px;
