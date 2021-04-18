@@ -1253,7 +1253,6 @@ button:focus, textarea:focus, select:focus {
 }
 
 .orange-bar__box {
-    flex: 1;
     color: white;
 }
 
