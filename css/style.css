@@ -1296,6 +1296,8 @@ button:focus, textarea:focus, select:focus {
 }
 
 .footer-logo {
+    display:flex;
+    flex-direction:row;
     width: 470px;
     font-size: 40px;
     color: white;
