@@ -773,9 +773,32 @@ button:focus, textarea:focus, select:focus {
     }
 
 
-/*Prostredni box*/
+/*Hover*/
+.invisible {
+    display: block;
+}
 
-.subbox-orange-items {
+.visible {
+    display: none;
+}
+
+.switch:hover .invisible {
+    display: none;
+    width: 370px;
+    height: 450px;
+    background-color: white;
+}
+
+.switch:hover .visible {
+    display: block;
+    width: 370px;
+    height: 450px;
+    background-color: #ea5822;
+}
+
+
+
+.subbox-orange-items  {
     display: flex;
     margin-top: 30px;
     margin-left: 10%;
