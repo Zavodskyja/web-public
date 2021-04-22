@@ -817,6 +817,10 @@ button:focus, textarea:focus, select:focus {
     color: white;
 }
 
+.subbox-statistics-orange > span {
+    color: white;
+}
+
 .subbox-statistics-orange-container {
     display: flex;
     margin-top:20px;
