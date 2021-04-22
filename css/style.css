@@ -3,8 +3,20 @@ body {
     height: 100%;
     margin: 0;
     background-image: url(../assety/silueta.png), url(../assety/BG_right.png),url(../assety/BG_left.png);
-    background-position: right top,right top,right top;
+    background-position: right top,right top ,right top ;
     background-repeat: no-repeat, no-repeat,no-repeat;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        background-image: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    body {
+        background-color: none;
+    }
 }
 
 .container {
@@ -153,9 +165,9 @@ li.dropdown {
 }
 
 .fb {
-    background-color: #ea5822;
+    background-color: white;
     border: none;
-    color: white;
+    color: #ea5822;
     text-align: center;
     height: 50px;
     width: 50px;
@@ -166,8 +178,8 @@ li.dropdown {
 }
 
     .fb:hover {
-        background-color: white;
-        color: #ea5822;
+        background-color: #ea5822;
+        color: white;
     }
 
 
@@ -213,42 +225,57 @@ li.dropdown {
 /*Search bar --TODO*/
 
 .Search {
-    width: 100%;
-    margin: 0 auto;
-    max-width: 1170px;
+    background-color:none;
 }
 
 .middlepanel-search {
     width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    margin-bottom: 40px;
+    height:635px;
+    margin: 0 auto;
+    margin-top: 200px;
+    max-width: 1170px;
+    
 }
 
-.Search_test {
+.search_bar {
     width: 550px;
-    margin-top: 15%;
-    height: 640px;
 }
 
 .searchcontainer {
-    display: block;
-    width: 100%;
+    display: flex;
+    flex-direction:column;
+    width: 50%;
     margin-top: 10px;
+    margin-bottom:200px;
 }
 
-.Search_test h2 {
-    display: block;
-    font-size: 70px;
-    font-weight: bold;
-}
-
-.Search_test h1 {
-    display: block;
+.search_nadpis > h1 {
     font-size: 20px;
-    text-align: left;
     color: #ea5822;
+    text-align: left;
 }
+
+.search_nadpis > h2 {
+    margin-top: -15px;
+    text-align: left;
+    font-size: 70px;
+    margin-bottom:20px;
+}
+
+.search_nadpis .fa-square {
+    margin-left: 5px;
+    text-align: center;
+    font-size: 7px;
+    vertical-align: middle;
+}
+
+    .search_nadpis .fa-square:nth-child(3) {
+        margin-right: 20px;
+    }
+
+    .search_nadpis .fa-square:nth-child(4) {
+        margin-left: 20px;
+    }
 
 .searchbar input[type=text] {
     padding: 30px;
@@ -381,7 +408,7 @@ button:focus, textarea:focus, select:focus {
 
 
 .statistics-container {
-    margin-top: -15em;
+    margin-top: -260px;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
@@ -392,7 +419,6 @@ button:focus, textarea:focus, select:focus {
 .statistics-items {
     /*flex: 1 0 20%;*/
     width: 270px;
-    height: 133px;
     margin: 10px;
     height: 100px;
     background-color: white;
@@ -401,6 +427,8 @@ button:focus, textarea:focus, select:focus {
     display: flex;
     align-items: center;
 }
+
+
 
 
     .statistics-items:first-child {
