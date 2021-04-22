@@ -780,6 +780,7 @@ button:focus, textarea:focus, select:focus {
 
 .visible {
     display: none;
+
 }
 
 .switch:hover .invisible {
@@ -800,7 +801,6 @@ button:focus, textarea:focus, select:focus {
 
 .subbox-orange-items  {
     display: flex;
-    margin-top: 30px;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -819,6 +819,7 @@ button:focus, textarea:focus, select:focus {
 
 .subbox-statistics-orange-container {
     display: flex;
+    margin-top:20px;
 }
 
 .subbox-statistics-orange {
@@ -827,32 +828,32 @@ button:focus, textarea:focus, select:focus {
     padding-left: 0;
 }
 
-    .subbox-statistics-orange > span {
-        font-size: 16px;
-        color: white;
-    }
+.subbox-orange-items > span {
+    font-size: 16px;
+    color: #ea5822;
+    margin-top: 50px;
+}
 
 .subbox-orange-items > p {
-    margin-top: -5px;
     color: white;
     font-size: 15px;
+    margin-top: 50px;
 }
 
 .subbox-orange-items > .fa-star {
     color: white;
     font-size: 15px;
-    margin-top: 5px;
+    margin-top: 55px;
 }
 
 .subbox-orange-items > .fa-star-half {
     font-size: 15px;
     color: white;
-    margin-top: 5px;
+    margin-top: 55px;
 }
 
 
 .subbox-orange-items > h3 {
-    margin-top: -15px;
     color: white;
 }
 
