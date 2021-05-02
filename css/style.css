@@ -1303,7 +1303,7 @@ button:focus, textarea:focus, select:focus {
 
 .events-items__small-top {
     height: 50%;
-    flex: 0 1 auto;
+    flex: 1;
 }
 
 .events-price {
@@ -1332,7 +1332,7 @@ button:focus, textarea:focus, select:focus {
     }
 
 .events-items__small-bottom {
-    flex: 0 1 auto;
+    flex: 1;
 }
 
 .events-img_1 {
@@ -1440,8 +1440,6 @@ button:focus, textarea:focus, select:focus {
 
 
 
-
-
 .container-feedback {
     display: flex;
     flex-direction: row;
@@ -1450,19 +1448,85 @@ button:focus, textarea:focus, select:focus {
 }
 
 .container-feedback__items {
-    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
     margin: 10px;
-    height: 650px;
+    height: 531px;
+    width: 460px;
     flex: 1;
 }
 
 .feedback-items__left {
-    background-color: navajowhite;
+background-color:yellow;
+width:460px;
+height:530px;
+
+
 }
 
-#feedback {
-    margin-bottom: 0;
+.feedback-left__content{
+    height:531px;
+    width:460px;
+    margin-top: 20px;
+    margin-left:20px;
+    background-color:white;
 }
+
+.feedback-right__content{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+    .feedback-right__content:nth-child(1){
+        margin-right:-70px;
+       
+        
+
+    }
+
+    .feedback-right__content:nth-child(3) {
+        margin-left: -70px;
+        margin-top:-70px;
+    }
+
+.feedback-right__content-items {
+    width: 130px;
+    height: 130px;
+    
+    margin-bottom: 25px;
+}
+
+    .feedback-right__content-items:nth-child(1) {
+        margin-bottom: 41px;
+        background-color: #ea5822;
+    }
+
+        .feedback-right__content-items:nth-child(2){
+            background-color:white;
+        }
+
+        .feedback-right_content-img__orange {
+            margin-left: 8px;
+            margin-top: 8px;
+        }
+
+.feedback-right_content-img__white {
+    margin-left: 8px;
+    margin-top:-8px;
+}
+
+
+
+
+
+
+        #feedback {
+            margin-bottom: 0;
+        }
 
 /*Career*/
 .career {
