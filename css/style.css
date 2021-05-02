@@ -1556,13 +1556,17 @@ button:focus, textarea:focus, select:focus {
 
 
 #img1 {
+    width: 500px;
+    height:500px;
     position: absolute;
     z-index: 1;
-    margin-left: -50px;
-    margin-top: -50px;
+    margin-left: -80px;
+    margin-top: -80px;
 }
 
 #img2 {
+    width: 331px;
+    height: 351px;
     position: absolute;
     z-index: 3;
     right: 0;
