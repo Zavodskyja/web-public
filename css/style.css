@@ -1098,12 +1098,12 @@ button:focus, textarea:focus, select:focus {
 .dropup-social_button {
     background-color: #ea5822;
     color: white;
-    height:46px;
-    width:46px;
+    height: 46px;
+    width: 46px;
     font-size: 30px;
     border: none;
-    margin-top:-30px;
-    margin-left:200px;
+    margin-top: -30px;
+    margin-left: 200px;
 }
 
 .dropup-social {
@@ -1114,7 +1114,7 @@ button:focus, textarea:focus, select:focus {
 
 .dropup-content {
     display: none;
-    flex-direction:column;
+    flex-direction: column;
     position: absolute;
     bottom: 44px;
     background-color: white;
@@ -1133,9 +1133,9 @@ button:focus, textarea:focus, select:focus {
     .dropup-content a {
         color: white;
         text-decoration: none;
-        display: flex ;
+        display: flex;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
         flex-direction: column;
         height: 44px;
     }
@@ -1166,9 +1166,9 @@ button:focus, textarea:focus, select:focus {
 }
 
 
-        .dropup-content a:hover {
-            background-color: #ddd
-        }
+.dropup-content a:hover {
+    background-color: #ddd
+}
 
 
 .dropup-social:hover .dropup-content {
@@ -1292,12 +1292,23 @@ button:focus, textarea:focus, select:focus {
     margin-right: 0px;
     width: 371px;
     height: 300px;
+    position: relative;
 }
 
 .events-items__small__img {
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.events-items__small:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(11, 46, 57, 1));
 }
 
 .events-items__small:first-child {
