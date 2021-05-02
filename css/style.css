@@ -3,7 +3,7 @@ body {
     height: 100%;
     margin: 0;
     background-image: url(../assety/silueta.png), url(../assety/BG_right.png),url(../assety/BG_left.png);
-    background-position: right top,right top ,right top ;
+    background-position: right top,right top,right top;
     background-repeat: no-repeat, no-repeat,no-repeat;
 }
 
@@ -225,16 +225,15 @@ li.dropdown {
 /*Search bar --TODO*/
 
 .Search {
-    background-color:none;
+    background-color: none;
 }
 
 .middlepanel-search {
     width: 100%;
-    height:635px;
+    height: 635px;
     margin: 0 auto;
     margin-top: 200px;
     max-width: 1170px;
-    
 }
 
 .search_bar {
@@ -243,10 +242,10 @@ li.dropdown {
 
 .searchcontainer {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     width: 50%;
     margin-top: 10px;
-    margin-bottom:200px;
+    margin-bottom: 200px;
 }
 
 .search_nadpis > h1 {
@@ -259,7 +258,7 @@ li.dropdown {
     margin-top: -15px;
     text-align: left;
     font-size: 70px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 .search_nadpis .fa-square {
@@ -379,31 +378,34 @@ button:focus, textarea:focus, select:focus {
         color: #ea5822;
         text-align: center;
     }
+
     .statistics > h3 {
-        margin-top:-15px;
-        text-align:center;
-        font-size:50px;
+        margin-top: -15px;
+        text-align: center;
+        font-size: 50px;
     }
 
     .statistics .fa-square {
-       margin-left:5px;
+        margin-left: 5px;
         text-align: center;
         font-size: 7px;
         vertical-align: middle;
     }
-        .statistics .fa-square:nth-child(3){
-            margin-right:20px;
+
+        .statistics .fa-square:nth-child(3) {
+            margin-right: 20px;
         }
+
         .statistics .fa-square:nth-child(4) {
             margin-left: 20px;
         }
 
-        .Categories {
-            width: 100%;
-            margin: 0 auto;
-            max-width: 1170px;
-            background-color: white;
-        }
+.Categories {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1170px;
+    background-color: white;
+}
 
 
 
@@ -498,10 +500,9 @@ button:focus, textarea:focus, select:focus {
 }
 
 .popular__items {
-    
     width: 270px;
     height: 350px;
-    margin-top:30px;
+    margin-top: 30px;
 }
 
     .popular__items:nth-child(4n+1) {
@@ -531,14 +532,13 @@ button:focus, textarea:focus, select:focus {
     margin-top: 0;
     border: 1px solid gray;
     border-top: none;
-    padding-left:40px;
+    padding-left: 40px;
 }
 
     .popular-items-text h4 {
         margin: 0;
         padding-top: 1em;
-        font-size:20px;
-
+        font-size: 20px;
     }
 
     .popular-items-text p {
@@ -592,13 +592,13 @@ button:focus, textarea:focus, select:focus {
     vertical-align: middle;
 }
 
-.available_nadpis .fa-square:nth-child(3) {
-    margin-right: 20px;
-}
+    .available_nadpis .fa-square:nth-child(3) {
+        margin-right: 20px;
+    }
 
-.available_nadpis .fa-square:nth-child(4) {
-    margin-left: 20px;
-}
+    .available_nadpis .fa-square:nth-child(4) {
+        margin-left: 20px;
+    }
 
 .Categories {
     width: 100%;
@@ -778,7 +778,6 @@ button:focus, textarea:focus, select:focus {
 
 .visible {
     display: none;
-
 }
 
 .switch:hover .invisible {
@@ -797,7 +796,7 @@ button:focus, textarea:focus, select:focus {
 
 
 
-.subbox-orange-items  {
+.subbox-orange-items {
     display: flex;
     margin-left: 10%;
     margin-right: 10%;
@@ -821,7 +820,7 @@ button:focus, textarea:focus, select:focus {
 
 .subbox-statistics-orange-container {
     display: flex;
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 .subbox-statistics-orange {
@@ -859,17 +858,12 @@ button:focus, textarea:focus, select:focus {
     color: white;
 }
 
-
-
-
-
 .photo-price-orange {
     display: flex;
     margin-left: 10%;
     margin-right: 10%;
     align-items: center;
 }
-
 
 .photo-orange {
     width: 80%;
@@ -896,6 +890,10 @@ button:focus, textarea:focus, select:focus {
     padding: 10px 15px 10px 15px;
     margin-bottom: 15px;
 }
+
+
+
+
 /*All courses*/
 
 .courses-button-box {
@@ -903,7 +901,7 @@ button:focus, textarea:focus, select:focus {
     width: 100%;
     height: 70px;
     justify-content: center;
-    justify-items:center;
+    justify-items: center;
     margin-top: 50px;
     margin-bottom: 100px;
 }
@@ -922,9 +920,9 @@ button:focus, textarea:focus, select:focus {
 }
 
 
-    .fa-long-arrow-alt-right {
-        margin-left: 1em;
-    }
+.fa-long-arrow-alt-right {
+    margin-left: 1em;
+}
 
 
 /*Gallery--TODO*/
@@ -934,7 +932,6 @@ button:focus, textarea:focus, select:focus {
 }
 
 .middlepanel__gallery > h2 {
-
     color: #ea5822;
     text-align: center;
     font-size: 20px;
@@ -953,13 +950,13 @@ button:focus, textarea:focus, select:focus {
     vertical-align: middle;
 }
 
-.middlepanel__gallery .fa-square:nth-child(3) {
-    margin-right: 20px;
-}
+    .middlepanel__gallery .fa-square:nth-child(3) {
+        margin-right: 20px;
+    }
 
-.middlepanel__gallery .fa-square:nth-child(4) {
-    margin-left: 20px;
-}
+    .middlepanel__gallery .fa-square:nth-child(4) {
+        margin-left: 20px;
+    }
 
 .middlepanel__gallery {
     width: 100%;
@@ -1097,6 +1094,104 @@ button:focus, textarea:focus, select:focus {
 }
 
 
+/*Dropup social*/
+
+.dropup-social_button {
+    background-color: #ea5822;
+    color: white;
+    height:46px;
+    width:46px;
+    font-size: 30px;
+    border: none;
+    margin-top:-30px;
+    margin-left:200px;
+}
+
+.dropup-social {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropup-content {
+    display: none;
+    flex-direction:column;
+    position: absolute;
+    bottom: 44px;
+    background-color: white;
+    width: 46px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 200px;
+}
+
+    .dropup-content .fa-facebook {
+        color: #24a1ff;
+        font-size: 20px;
+    }
+
+
+    .dropup-content a {
+        color:white;
+        text-decoration: none;
+        display: block;
+        height:44px;
+    }
+
+
+        .dropup-content a:hover {
+            background-color: #ddd
+        }
+
+
+.dropup-social:hover .dropup-content {
+    display: block;
+}
+
+
+.dropup-social:hover .dropup-content {
+    background-color: white;
+}
+
+
+#facebook_experts {
+    background: #1771e6;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+#twitter_experts {
+    background: #f7bb00;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+#youtube_experts {
+    background: #ff0000;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    vertical-align: middle;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+
+
 /* Upcoming Events */
 
 
@@ -1123,13 +1218,13 @@ button:focus, textarea:focus, select:focus {
     vertical-align: middle;
 }
 
-.middlepanel__events .fa-square:nth-child(3) {
-    margin-right: 20px;
-}
+    .middlepanel__events .fa-square:nth-child(3) {
+        margin-right: 20px;
+    }
 
-.middlepanel__events .fa-square:nth-child(4) {
-    margin-left: 20px;
-}
+    .middlepanel__events .fa-square:nth-child(4) {
+        margin-left: 20px;
+    }
 
 .middlepanel__events {
     width: 100%;
@@ -1234,11 +1329,10 @@ button:focus, textarea:focus, select:focus {
 }
 
 .middlepanel__feedback > h3 {
-    color:white;
+    color: white;
     margin-top: -15px;
     text-align: center;
     font-size: 50px;
-    
 }
 
 .middlepanel__feedback .fa-square {
@@ -1405,8 +1499,8 @@ button:focus, textarea:focus, select:focus {
 .middlepanel-blog > h2 {
     color: #ea5822;
     text-align: center;
-    margin-top:50px;
-    font-size:20px;
+    margin-top: 50px;
+    font-size: 20px;
 }
 
 .middlepanel-blog > h3 {
