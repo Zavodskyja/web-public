@@ -1354,8 +1354,6 @@ button:focus, textarea:focus, select:focus {
 }
 
 .events-text {
-    margin-top: 15%;
-    margin-bottom: 10%;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -1374,10 +1372,24 @@ button:focus, textarea:focus, select:focus {
             color: #bacbd8;
             margin-right:20px;
         }
-        /*Feedback*/
-        .feedback {
-            background-image: url(../assety/feedback_background.jpg)
-        }
+
+.events-text__content h3 {
+    color:white;
+    font-size:25px;
+
+}
+
+.events-text_join {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+/*Feedback*/
+.feedback {
+    background-image: url(../assety/feedback_background.jpg)
+}
 
 .middlepanel__feedback > h2 {
     color: white;
