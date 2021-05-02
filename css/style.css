@@ -1359,7 +1359,7 @@ button:focus, textarea:focus, select:focus {
 }
 
     .events-text__content{
-
+        display:flex;
 
     }
 
@@ -1384,6 +1384,16 @@ button:focus, textarea:focus, select:focus {
     text-decoration: none;
     font-size: 15px;
 }
+.events-text_button {
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+}
+
+
+    .events-text_button  span {
+        color: Black;
+        font-weight: bold;
+    }
 
 
 /*Feedback*/
