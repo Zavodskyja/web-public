@@ -1131,11 +1131,38 @@ button:focus, textarea:focus, select:focus {
 
 
     .dropup-content a {
-        color:white;
+        color: white;
         text-decoration: none;
-        display: block;
-        height:44px;
+        display: flex ;
+        align-items: center;
+        flex-direction: column;
+        height: 44px;
     }
+
+    .dropup-content i {
+        color: white;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        line-height: 30px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+.drop_twitter {
+    background: #f7bb00;
+}
+
+.drop_facebook {
+    background: #24a1ff;
+}
+
+.drop_youtube {
+    background: #ff0000;
+}
 
 
         .dropup-content a:hover {
@@ -1152,42 +1179,6 @@ button:focus, textarea:focus, select:focus {
     background-color: white;
 }
 
-
-#facebook_experts {
-    background: #1771e6;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    line-height: 30px;
-    vertical-align: middle;
-    text-align: center;
-    margin-left: 8px;
-    margin-top: 8px;
-}
-
-#twitter_experts {
-    background: #f7bb00;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    line-height: 30px;
-    vertical-align: middle;
-    text-align: center;
-    margin-left: 8px;
-    margin-top: 8px;
-}
-
-#youtube_experts {
-    background: #ff0000;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 30px;
-    vertical-align: middle;
-    margin-left: 8px;
-    margin-top: 8px;
-}
 
 
 
