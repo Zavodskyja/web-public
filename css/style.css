@@ -643,9 +643,7 @@ button:focus, textarea:focus, select:focus {
         margin-right: 0;
     }
 
-    .available-items:nth-child(2) {
-        background-color: #ea5822;
-    }
+
 
 
 /*Obrazky v boxech*/
