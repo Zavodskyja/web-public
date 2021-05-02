@@ -1293,12 +1293,47 @@ button:focus, textarea:focus, select:focus {
     width: 371px;
     height: 300px;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
     .events-items__small:first-child {
         margin-bottom: 30px;
     }
 
+.events-items__small-top {
+    height: 50%;
+    flex: 0 1 auto;
+}
+
+.events-price {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+
+    .events-price > span {
+        color: white;
+        font-size: 25px;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        line-height: 50px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background: #ea5822;
+        margin-right: 30px;
+    }
+
+.events-items__small-bottom {
+    flex: 0 1 auto;
+}
 
 .events-img_1 {
     display: block;
@@ -1318,16 +1353,31 @@ button:focus, textarea:focus, select:focus {
     display: block;
 }
 
-
-
-
-
-/*Feedback*/
-
-
-.feedback {
-    background-image: url(../assety/feedback_background.jpg)
+.events-text {
+    margin-top: 15%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
+
+    .events-text__content{
+
+
+    }
+
+        .events-text__content .fa-clock, .fa-calendar-alt {
+            color: #ea5822;
+            margin-right: 5px;
+        }
+
+        .events-text__content span {
+            color: #bacbd8;
+            margin-right:20px;
+        }
+        /*Feedback*/
+        .feedback {
+            background-image: url(../assety/feedback_background.jpg)
+        }
 
 .middlepanel__feedback > h2 {
     color: white;
