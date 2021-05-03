@@ -226,6 +226,9 @@ li.dropdown {
 
 .Search {
     background-color: none;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1170px;
 }
 
 .middlepanel-search {
@@ -276,11 +279,31 @@ li.dropdown {
         margin-left: 20px;
     }
 
-.searchbar input[type=text] {
+
+    .searchbar{
+        width:100%;
+    }
+.searchbar-search {
     padding: 30px;
     font-size: 15px;
     border: none;
-    width: 70%
+    width: 350px;
+}
+
+    .searchbar-search::-webkit-input-placeholder {
+        font-weight: bold;
+        font-size: 15px;
+        margin-left:30px;
+    }
+
+
+.searchbar-search__button {
+    background-color: #ea5822;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border: 10px solid white;
 }
 
 input:focus, textarea:focus, select:focus {
@@ -291,16 +314,7 @@ button:focus, textarea:focus, select:focus {
     outline: none;
 }
 
-.searchbar button {
-    padding: 1em;
-    background: #ea5822;
-    font-size: 17px;
-    border: solid;
-    border-width: 0.65em;
-    cursor: pointer;
-    margin-left: -0.25em;
-    color: white;
-}
+
 
 .searchinfo {
     display: flex;
