@@ -5,17 +5,6 @@ body {
     
 }
 
-@media screen and (max-width: 992px) {
-    body {
-        background-image: none;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    body {
-        background-color: none;
-    }
-}
 
 .container {
     width: 100%;
@@ -232,6 +221,18 @@ li.dropdown {
     background-image: url(../assety/silueta.png), url(../assety/BG_right.png),url(../assety/BG_left.png);
     background-position: right top,right top,right top;
     background-repeat: no-repeat, no-repeat,no-repeat;
+}
+
+@media screen and (max-width: 992px) {
+    .search_bg {
+        background: blue;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .search_bg {
+        background: green;
+    }
 }
 
 .middlepanel-search {
