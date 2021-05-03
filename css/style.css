@@ -1495,18 +1495,23 @@ button:focus, textarea:focus, select:focus {
     align-items: center;
 }
 
+.feedback-left__photo-text{
+
+
+}
+
     .feedback-left__photo img {
         height: 50px;
         width: 50px;
-        float: left;
         margin-right: 20px;
     }
 
-    .feedback-left__photo h3 {
+    .feedback-left__photo-text h3 {
+        margin-top:0;
         margin-bottom: 10px;
     }
 
-    .feedback-left__photo span {
+    .feedback-left__photo-text span {
         color: #ea5822;
     }
 
@@ -1518,6 +1523,7 @@ button:focus, textarea:focus, select:focus {
     color: black;
     border: none;
     margin-right:10px;
+    margin-top:40px;
    
 }
 
