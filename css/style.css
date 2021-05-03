@@ -2094,7 +2094,7 @@ button:focus, textarea:focus, select:focus {
     justify-content: space-between;
     height: 140px;
     margin-top: 10px;
-    width: 100%;
+    width: 200px;
 }
 
     .footer-text > li a {
@@ -2150,14 +2150,41 @@ button:focus, textarea:focus, select:focus {
 
 
 
-
-
-.copyright {
-    width: 100%;
-    height: 60px;
+.footer-newsletters__email {
     background-color: #0c3542;
-    color: #79909d;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border: none;
+    padding:20px;
+    width:350px;
+    color:white;
 }
+
+    .footer-newsletters__email::-webkit-input-placeholder {
+        color: #79909d;
+        font-weight:bold;
+        font-size:15px;
+    }
+
+.footer-newsletters__email___button {
+    background-color: #ea5822;
+    height:55px;
+    width:80px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    color:white;
+    float:right;
+}
+
+
+
+
+
+    .copyright {
+        width: 100%;
+        height: 60px;
+        background-color: #0c3542;
+        color: #79909d;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
