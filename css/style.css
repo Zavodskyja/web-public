@@ -1524,21 +1524,22 @@ button:focus, textarea:focus, select:focus {
     border: none;
     margin-right:10px;
     margin-top:40px;
-   
+    height:40px;
+   }
+
+
+
+.feedback-left__arrows i {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
-
-    .feedback-left__arrows i {
-        height: 40px;
-        width: 40px;
-        line-height: 40px;
-        text-align: center;
-        display: flex;
-        font-size: 20px;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-
-    }
 
     .feedback-left__arrows a {
         display: flex;
@@ -1551,15 +1552,21 @@ button:focus, textarea:focus, select:focus {
         background-color: #ea5822;
     }
 
-
-
-.feedback-right__content {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
+.feedback-left__arrows-quote {
+    font-size: 100px;
+    color: #ea5822;
+    margin-left:180px;
 }
+
+
+
+    .feedback-right__content {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+    }
 
     .feedback-right__content:nth-child(1) {
         margin-right: -70px;
