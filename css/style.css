@@ -992,15 +992,82 @@ button:focus, textarea:focus, select:focus {
     width: 100%;
     margin: 0 auto;
     max-width: 1170px;
+    margin-bottom:100px;
+}
+
+.gallery-items__container{
+    margin-top:30px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    
+}
+.gallery-items {
+    width: 370px;
+    height: 400px;
+    background-color: blue;
+    margin-top: 30px;
 }
 
 
 
+.gallery_button {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background:none;
+}
 
+    .gallery_button:hover {
+        cursor: pointer;
+    }
 
+.selected {
+    color: #ea5822;
+    position: relative;
+ 
+}
+
+    .selected::after {
+        position: absolute;
+        content: '';
+        border-bottom: 2px solid #ea5822;
+        width: 100%;
+        bottom: -15px;
+        transform: translateX(-50%);
+        left: 50%;
+        z-index: 3;
+    }
+
+.hidden {
+    display: none;
+}
+
+.gallery-filter__box{
+    display:flex;
+    justify-content:center;
+}
+.cat-selector-wrapper {
+    display: inline-block;
+    position: relative;
+}
+    .cat-selector-wrapper::after {
+        position: absolute;
+        content: '';
+        border-bottom: 1px solid #d2d7da;
+        width: 110%;
+        bottom: -15px;
+        transform: translateX(-50%);
+        bottom: -15px;
+        left: 50%;
+        z-index:1;
+    }
 
 /*Experts*/
-
 .instructors {
     background-color: #eaf4f7;
 }
@@ -1047,7 +1114,6 @@ button:focus, textarea:focus, select:focus {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 50px
 }
 
 .instructor-container__subbox {
@@ -1868,17 +1934,21 @@ button:focus, textarea:focus, select:focus {
 }
 
 .blog-person__arrow {
+    position: relative;
+    bottom: 39px;
+    right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #0b2e39;
     color: white;
-    height: 65px;
     width: 65px;
     font-size: 30px;
     border: none;
-    margin-top: -86px;
     margin-left: 304px;
+}
+.blog-person__arrow > i {
+    margin: 10px auto;
 }
 
     .blog-person__arrow:hover {
@@ -2028,7 +2098,7 @@ button:focus, textarea:focus, select:focus {
 }
 
 
-/*TODO zjednodušit*/
+/*TODO zjednoduï¿½it*/
 #facebook {
     background: #1771e6;
     width: 30px;
